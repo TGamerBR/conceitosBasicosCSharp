@@ -1,0 +1,7 @@
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\conceitosBásicos\bin\Debug\conceitosBásicos.exe.config
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\conceitosBásicos\bin\Debug\conceitosBásicos.exe
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\conceitosBásicos\bin\Debug\conceitosBásicos.pdb
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\conceitosBásicos\obj\Debug\conceitosBásicos.csprojAssemblyReference.cache
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\conceitosBásicos\obj\Debug\conceitosBásicos.csproj.CoreCompileInputs.cache
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\conceitosBásicos\obj\Debug\conceitosBásicos.exe
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\conceitosBásicos\obj\Debug\conceitosBásicos.pdb

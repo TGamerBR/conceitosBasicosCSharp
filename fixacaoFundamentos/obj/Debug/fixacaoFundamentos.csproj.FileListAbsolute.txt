@@ -1,0 +1,7 @@
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fixacaoFundamentos\bin\Debug\fixacaoFundamentos.exe.config
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fixacaoFundamentos\bin\Debug\fixacaoFundamentos.exe
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fixacaoFundamentos\bin\Debug\fixacaoFundamentos.pdb
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fixacaoFundamentos\obj\Debug\fixacaoFundamentos.csprojAssemblyReference.cache
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fixacaoFundamentos\obj\Debug\fixacaoFundamentos.csproj.CoreCompileInputs.cache
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fixacaoFundamentos\obj\Debug\fixacaoFundamentos.exe
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fixacaoFundamentos\obj\Debug\fixacaoFundamentos.pdb
