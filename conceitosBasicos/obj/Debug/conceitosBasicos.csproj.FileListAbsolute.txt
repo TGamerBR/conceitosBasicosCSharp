@@ -5,3 +5,10 @@ C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\fixacaoFundame
 C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\fixacaoFundamentos\obj\Debug\fixacaoFundamentos.exe
 C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\fixacaoFundamentos\obj\Debug\fixacaoFundamentos.pdb
 C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\fixacaoFundamentos\obj\Debug\conceitosBasicos.csprojAssemblyReference.cache
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\conceitosBasicos\bin\Debug\fixacaoFundamentos.exe.config
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\conceitosBasicos\bin\Debug\fixacaoFundamentos.exe
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\conceitosBasicos\bin\Debug\fixacaoFundamentos.pdb
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\conceitosBasicos\obj\Debug\conceitosBasicos.csprojAssemblyReference.cache
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\conceitosBasicos\obj\Debug\conceitosBasicos.csproj.CoreCompileInputs.cache
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\conceitosBasicos\obj\Debug\fixacaoFundamentos.exe
+C:\Users\EduardoFirminodeOliv\source\repos\conceitosBasicosCSharp\conceitosBasicos\obj\Debug\fixacaoFundamentos.pdb

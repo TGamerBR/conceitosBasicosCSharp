@@ -1,7 +1,0 @@
-C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fundamentosCSharp\bin\Debug\fundamentosCSharp.exe.config
-C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fundamentosCSharp\bin\Debug\fundamentosCSharp.exe
-C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fundamentosCSharp\bin\Debug\fundamentosCSharp.pdb
-C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fundamentosCSharp\obj\Debug\fundamentosCSharp.csprojAssemblyReference.cache
-C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fundamentosCSharp\obj\Debug\fundamentosCSharp.csproj.CoreCompileInputs.cache
-C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fundamentosCSharp\obj\Debug\fundamentosCSharp.exe
-C:\Users\EduardoFirminodeOliv\source\repos\conceitosBásicosCSharp\fundamentosCSharp\obj\Debug\fundamentosCSharp.pdb
