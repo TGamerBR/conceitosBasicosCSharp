@@ -23,6 +23,8 @@ namespace fixacaoFundamentos
             "D - Calcular valor ao aluguel do veículo;\n" +
             "E - Verificar IMC;\n" +
             "F - Criar tabuada;\n" +
+            "G - Exibir até !10;\n" +
+            "H - Exibir apenas ímpares até 100;\n" +
             "X - Sair;\n\n");
 
             Console.WriteLine("Informe qual opção você deseja utilizar(utilize CAPS LOCK): ");
@@ -32,7 +34,7 @@ namespace fixacaoFundamentos
             switch (escolha)
             {
                 case 'A':
-                    
+
                     int numero1 = 20;
                     int numero2 = 22;
                     int result = soma.Somar(numero1, numero2);
@@ -86,7 +88,7 @@ namespace fixacaoFundamentos
 
                 case 'F':
 
-                    
+
                     Console.WriteLine("Você deseja fazer tabuada de qual número? ");
                     int valor = int.Parse(Console.ReadLine());
                     Console.WriteLine("Deseja fazer até que valor? ");
@@ -96,7 +98,33 @@ namespace fixacaoFundamentos
                     Console.Read();
                     break;
 
+                case 'G':
+                    int i;
+
+                    int fatorial = 1;
+                    for (i = 1; i <= 10; i++)
+                    {
+                        fatorial *= i;
+                        Console.WriteLine(i + " fatorial = " + fatorial);
+                    }
+                    Console.Read();
+                    break;
+
+                case 'H':
+                    int cont;
+
+                    for (cont = 0; cont <= 100; cont++)
+                    {
+                        if (cont % 2 != 0)
+                        {
+                            Console.WriteLine(cont);
+                        }
+                    }
+                    Console.Read();
+                    break;
+
                 case 'X':
+                    Console.Clear();
                     break;
 
                 default:
