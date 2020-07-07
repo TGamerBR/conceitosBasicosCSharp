@@ -14,124 +14,122 @@ namespace fixacaoFundamentos
         static AluguelCarro aluguelCarro;
         static IMC imc;
         static Tabuada tabuada;
+
         static void Main(string[] args)
         {
-            Console.WriteLine(
-            "A - Para somar dois números;\n" +
-            "B - Converter metros em milimetros;\n" +
-            "C - Calcular aumento de salário;\n" +
-            "D - Calcular valor ao aluguel do veículo;\n" +
-            "E - Verificar IMC;\n" +
-            "F - Criar tabuada;\n" +
-            "G - Exibir até !10;\n" +
-            "H - Exibir apenas ímpares até 100;\n" +
-            "X - Sair;\n\n");
-
-            Console.WriteLine("Informe qual opção você deseja utilizar(utilize CAPS LOCK): ");
-            char escolha = char.Parse(Console.ReadLine());
-            Console.Clear();
-
-            switch (escolha)
+            int loop;
+            do
             {
-                case 'A':
+                loop = 0;
+                Console.WriteLine("\n" +
+                "1 - Para somar dois números;\n" +
+                "2 - Converter metros em milimetros;\n" +
+                "3 - Calcular aumento de salário;\n" +
+                "4 - Calcular valor ao aluguel do veículo;\n" +
+                "5 - Verificar IMC;\n" +
+                "6 - Criar tabuada;\n" +
+                "7 - Exibir até !10;\n" +
+                "8 - Exibir apenas ímpares até 100;\n" +
+                "9 - Sair;\n\n");
 
-                    int numero1 = 20;
-                    int numero2 = 22;
-                    int result = soma.Somar(numero1, numero2);
-                    Console.WriteLine($"O resultado da soma de {numero1} com {numero2} é igual a " + result);
-                    Console.Read();
-                    break;
+                int escolha = int.Parse(Console.ReadLine());
 
-                case 'B':
-                    Console.WriteLine("Informe a distância em metros: ");
-                    metrosMilimetros.Metros = float.Parse(Console.ReadLine());
-                    float milimetros = metrosMilimetros.MetrosParaMilimetros();
-                    Console.WriteLine($"O resultado da conversão de {metrosMilimetros.Metros} Metros para Milimetros é de {milimetros} milimetros");
-                    Console.Read();
-                    break;
+                Console.Clear();
+                loop = escolha;
 
-                case 'C':
-                    Console.WriteLine("Informe o saláro atual: ");
-                    decimal salario = Convert.ToDecimal(Console.ReadLine());
-                    Console.WriteLine("Informe o percentual de aumento: ");
-                    float percAumento = float.Parse(Console.ReadLine());
-                    calculaAumento = new CalculaAumento(salario, percAumento);
-                    decimal valorAumento = calculaAumento.NovoSalario - salario;
-                    Console.WriteLine("Para o salário de {0}, foi fornecido um aumento de {1}%, assim o novo salário é {2} e o valor do aumento foi de {3}", salario, percAumento, calculaAumento.NovoSalario, valorAumento);
-                    Console.Read();
-                    break;
+                switch (escolha)
+                {
+                    case 1:
 
-                case 'D':
-                    Console.WriteLine("Informe a quantidade de dias em que o carro ficou alugado: ");
-                    int dias = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Informe a quilometragem inicial: ");
-                    decimal quilometragemInicial = decimal.Parse(Console.ReadLine());
-                    Console.WriteLine("Informe a quilometragem final: ");
-                    decimal quilometragemFinal = decimal.Parse(Console.ReadLine());
-                    aluguelCarro = new AluguelCarro(quilometragemInicial, quilometragemFinal, dias);
-                    Console.WriteLine($"O valor a pagar pelo aluguel do veículo é de: {aluguelCarro.ValorPagar}");
-                    Console.Read();
-                    break;
+                        int numero1 = 20;
+                        int numero2 = 22;
+                        int result = soma.Somar(numero1, numero2);
+                        Console.WriteLine($"O resultado da soma de {numero1} com {numero2} é igual a " + result);
+                        break;
 
-                case 'E':
-                    Console.WriteLine("Informe a sua altura em metros: ");
-                    float valAltura = float.Parse(Console.ReadLine());
-                    Console.WriteLine("Informe o seu peso: ");
-                    float valPeso = float.Parse(Console.ReadLine());
-                    Console.WriteLine("Informe seu sexo: ");
-                    string valSexo = Console.ReadLine();
-                    imc = new IMC(valAltura, valPeso, valSexo);
-                    Console.WriteLine($"O resultado do seu IMC é:{imc.ValorIMC}, ou seja, {imc.ClassIMC}");
-                    Console.Read();
+                    case 2:
+                        Console.WriteLine("Informe a distância em metros: ");
+                        metrosMilimetros.Metros = float.Parse(Console.ReadLine());
+                        float milimetros = metrosMilimetros.MetrosParaMilimetros();
+                        Console.WriteLine($"O resultado da conversão de {metrosMilimetros.Metros} Metros para Milimetros é de {milimetros} milimetros");
+                        break;
 
-                    break;
+                    case 3:
+                        Console.WriteLine("Informe o saláro atual: ");
+                        decimal salario = Convert.ToDecimal(Console.ReadLine());
+                        Console.WriteLine("Informe o percentual de aumento: ");
+                        float percAumento = float.Parse(Console.ReadLine());
+                        calculaAumento = new CalculaAumento(salario, percAumento);
+                        decimal valorAumento = calculaAumento.NovoSalario - salario;
+                        Console.WriteLine("Para o salário de {0}, foi fornecido um aumento de {1}%, assim o novo salário é {2} e o valor do aumento foi de {3}", salario, percAumento, calculaAumento.NovoSalario, valorAumento);
+                        break;
 
-                case 'F':
+                    case 4:
+                        Console.WriteLine("Informe a quantidade de dias em que o carro ficou alugado: ");
+                        int dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe a quilometragem inicial: ");
+                        decimal quilometragemInicial = decimal.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe a quilometragem final: ");
+                        decimal quilometragemFinal = decimal.Parse(Console.ReadLine());
+                        aluguelCarro = new AluguelCarro(quilometragemInicial, quilometragemFinal, dias);
+                        Console.WriteLine($"O valor a pagar pelo aluguel do veículo é de: {aluguelCarro.ValorPagar}");
+                        break;
 
+                    case 5:
+                        Console.WriteLine("Informe a sua altura em metros: ");
+                        float valAltura = float.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe o seu peso: ");
+                        float valPeso = float.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe seu sexo: ");
+                        string valSexo = Console.ReadLine();
+                        imc = new IMC(valAltura, valPeso, valSexo);
+                        Console.WriteLine($"O resultado do seu IMC é:{imc.ValorIMC}, ou seja, {imc.ClassIMC}");
 
-                    Console.WriteLine("Você deseja fazer tabuada de qual número? ");
-                    int valor = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Deseja fazer até que valor? ");
-                    int valor2 = int.Parse(Console.ReadLine());
+                        break;
 
-                    tabuada = new Tabuada(valor, valor2);
-                    Console.Read();
-                    break;
+                    case 6:
+                        Console.WriteLine("Você deseja fazer tabuada de qual número? ");
+                        int valor = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Deseja fazer até que valor? ");
+                        int valor2 = int.Parse(Console.ReadLine());
 
-                case 'G':
-                    int i;
+                        tabuada = new Tabuada(valor, valor2);
+                        break;
 
-                    int fatorial = 1;
-                    for (i = 1; i <= 10; i++)
-                    {
-                        fatorial *= i;
-                        Console.WriteLine(i + " fatorial = " + fatorial);
-                    }
-                    Console.Read();
-                    break;
+                    case 7:
+                        int i;
 
-                case 'H':
-                    int cont;
-
-                    for (cont = 0; cont <= 100; cont++)
-                    {
-                        if (cont % 2 != 0)
+                        int fatorial = 1;
+                        for (i = 1; i <= 10; i++)
                         {
-                            Console.WriteLine(cont);
+                            fatorial *= i;
+                            Console.WriteLine(i + " fatorial = " + fatorial);
                         }
-                    }
-                    Console.Read();
-                    break;
+                        break;
 
-                case 'X':
-                    Console.Clear();
-                    break;
+                    case 8:
+                        int cont;
 
-                default:
-                    Console.WriteLine("Opção Inválida");
-                    Console.Read();
-                    break;
-            }
+                        for (cont = 0; cont <= 100; cont++)
+                        {
+                            if (cont % 2 != 0)
+                            {
+                                Console.WriteLine(cont);
+                            }
+                        }
+                        break;
+
+                    case 9:
+                        break;
+
+                    default:
+                        Console.WriteLine("Opção Inválida");
+                        break;
+                }
+                escolha = 0;
+                Console.ReadKey();
+                Console.Clear();
+            } while (loop != 9);
         }
     }
 }
